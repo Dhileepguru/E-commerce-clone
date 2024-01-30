@@ -15,15 +15,613 @@ footer{
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
+    body{
+        color: black;
+    }
+    
+    nav{
+        margin-top: 10px;
+        border-color: black!important;
+        border-top:0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 2px grey;
+        border-style: solid;
+        
+        
+    }
+    .navbar-brand{
+        margin-left: 5px;
+    }
+    
+    nav .nav{
+        color:black;
+    
+    }
+    .nav-link{
+        color: black;
+        margin-left: 12px;
+        
+    }
+    .ho{
+        margin-left: 10px;
+    }
+    .customize{
+        display: none;
+    }
+    .ab{
+        color: black;
+    }
+    
+    .nav-item{
+        
+        text-align: center !important;
+    
+    }
+    .button{
+        position:absolute;
+    }
+    .search{
+        width: max-content
+    }
+    .front img{
+        margin-left: 5px;
+        margin-right: 20px;
+        width: 100%;
+        display: block;
+        height: 100%;
+    }
+    
+    .top{
+        margin-left: 5px;
+        position: relative;
+    }
+    .front h1{
+        position: absolute;
+        color: white;
+        font-size:5px;
+        font-family: 'Work Sans', sans-serif;
+        top:10%;
+        left:6%;
+    }
+    .front h1:hover{
+        transition: transform 0.3s ease-in-out;
+    }
+    .front h3{
+        position: absolute;
+        color: white;
+        top:72%;
+        left:7%;
+    }
+    .front a{
+        text-decoration: none;
+        color: black;
+        font-size:x-large;
+    }
+    
+    .front button{
+        position: absolute;
+        background-color: white;
+        left:6%;
+        border-radius: 20px;
+        width: 150px;
+        top:88%;
+        margin-bottom: 1330px;
+    }
+    .f1{
+        margin-left:35px;
+        position: relative;
+    }
+    .featured{
+        margin-left: 44px;
+    }
+    .f2{
+        margin-left: -120px;
+    }
+    .f1 img {
+        width: 100%;
+    }
+    .f2 img{
+        display: flex;
+        width:100%;
+        height: 100%;
+
+}
+    .retro{
+        position: absolute;
+        color: white;
+        top:70%;
+        left:6%;
+        text-align: left;
+    }
+    .featured .btn{
+        position: absolute;
+        background-color: white;
+        left:6%;
+        border-radius: 20px;
+        width: 120px;
+        top:88%;
+        margin-bottom: 1330px;   
+    }
+    .featured .btn a{
+        color: black;
+    }
+    .ver img{
+        margin-left: 130px;
+      }
+    .versair{
+        position: absolute;
+        top:56%;
+        text-align:left;
+        left:34%;
+        color:white;
+    }
+    .ver .btn{
+        position: absolute;
+        background-color: white;
+        left:34%;
+        border-radius: 20px;
+        width: 120px;
+        top:90%;
+        margin-bottom: 1330px;
+    }
+
+    .carousel-item{
+        position: relative;
+        margin-left: 50px;  
+         
+    }
+    .right .pop img{
+        height:100%;
+        width: 120%;
+        justify-content: left;
+        margin-right: 200px;
+        transition: transform 0.3s ease-in-out;
+
+    }
+    .pop{
+        margin-right: 50px;   
+    }
+    .pop img:hover{
+        transform: scale(1.1);
+    }
+    .pop{
+        text-align: left;
+    }
+    .pop h4{
+        color: grey;
+        margin-left: 10px;
+    }
+    .foot{
+        color: white;
+    }
+    footer{
+        margin-right: none;
+        width: 100%;
+    }
+    footer .social{
+        padding: 20px;
+    }
+    footer h6{
+        color: white;
+    }
+    .text{
+        color: grey;
+    }
+    .end{
+        margin-left: 100px;
+    }
+    .mid{
+        margin-left: 100px;
+    }
+    .srt{
+        margin-left: 150px;
+    }
     
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
+    body{
+        color: black;
+    }
     
+    nav{
+        margin-top: 10px;
+        border-color: black!important;
+        border-top:0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 2px grey;
+        border-style: solid;
+        
+        
+    }
+    .navbar-brand{
+        margin-left: 50px;
+    }
+    
+    nav .nav{
+        color:black;
+    
+    }
+    .nav-link{
+        color: black;
+        margin-left: 1px;
+        
+    }
+    .ho{
+        margin-left: 20px;
+    }
+    .ab{
+        color: black;
+    }
+    
+    .nav-item{
+        
+        text-align: center !important;
+    
+    }
+    .button{
+        position:absolute;
+    }
+    .search{
+        border-radius: 10px;
+    }
+    .front img{
+        margin-left: 50px;
+        margin-right: 50px;
+        width: 100%;
+        display: block;
+        height: 100%;
+    }
+    .top{
+        margin-left: 5px;
+        position: relative;
+    }
+    .front h1{
+        position: absolute;
+        color: white;
+        font-size:xx-small;
+        font-family: 'Work Sans', sans-serif;
+        margin-left: 1px;
+    }
+    
+    .front h3{
+        
+        position: absolute;
+        color: white;
+        top:72%;
+        left:4%;
+        font-size: xx-small;
+    }
+    .remove{
+        display: none;
+    }
+    .front a{
+        text-decoration: none;
+        color: black;
+        font-size:x-large;
+    }
+    
+    .front button{
+        position: absolute;
+        background-color: white;
+        left:6%;
+        border-radius: 20px;
+        width: 150px;
+        top:88%;
+        margin-bottom: 1330px;
+    }
+    .f1{
+        margin-left:35px;
+        position: relative;
+    }
+    .featured{
+        margin-left: 44px;
+    }
+    .f2{
+        margin-left: -120px;
+    }
+    .f1 img {
+        width: 100%;
+    }
+    .f2 img{
+        display: flex;
+        width:100%;
+        height: 100%;
+
+}
+    .retro{
+        position: absolute;
+        color: white;
+        top:70%;
+        left:6%;
+        text-align: left;
+    }
+    .featured .btn{
+        position: absolute;
+        background-color: white;
+        left:6%;
+        border-radius: 20px;
+        width: 120px;
+        top:88%;
+        margin-bottom: 1330px;   
+    }
+    .featured .btn a{
+        color: black;
+    }
+    .ver img{
+        margin-left: 130px;
+      }
+    .versair{
+        position: absolute;
+        top:56%;
+        text-align:left;
+        left:34%;
+        color:white;
+    }
+    .ver .btn{
+        position: absolute;
+        background-color: white;
+        left:34%;
+        border-radius: 20px;
+        width: 120px;
+        top:90%;
+        margin-bottom: 1330px;
+    }
+
+    .carousel-item{
+        position: relative;
+        margin-left: 50px;  
+         
+    }
+    .right .pop img{
+        height:100%;
+        width: 120%;
+        justify-content: left;
+        margin-right: 200px;
+        transition: transform 0.3s ease-in-out;
+
+    }
+    .pop{
+        margin-right: 50px;   
+    }
+    .pop img:hover{
+        transform: scale(1.1);
+    }
+    .pop{
+        text-align: left;
+    }
+    .pop h4{
+        color: grey;
+        margin-left: 10px;
+    }
+    .foot{
+        color: white;
+    }
+    footer{
+        margin-right: none;
+        width: 100%;
+    }
+    footer .social{
+        padding: 20px;
+    }
+    footer h6{
+        color: white;
+    }
+    .text{
+        color: grey;
+    }
+    .end{
+        margin-left: 100px;
+    }
+    .mid{
+        margin-left: 100px;
+    }
+    .srt{
+        margin-left: 150px;
+    }
 }
 
 @media (min-width: 993px) and (max-width: 1200px) {
-   
+    body{
+        color: black;
+    }
+    
+    nav{
+        margin-top: 10px;
+        border-color: black!important;
+        border-top:0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 2px grey;
+        border-style: solid;
+        
+        
+    }
+    .navbar-brand{
+        margin-left: 5px;
+    }
+    
+    nav .nav{
+        color:black;
+    
+    }
+    .nav-link{
+        color: black;
+        margin-left: 1px;
+        
+    }
+    .ho{
+        margin-left: 120px;
+    }
+    .ab{
+        color: black;
+    }
+    
+    .nav-item{
+        
+        text-align: center !important;
+    
+    }
+    .button{
+        position:absolute;
+    }
+    .search{
+        border-radius: 10px;
+    }
+    .front img{
+        margin-left: 50px;
+        margin-right: 50px;
+        width: 92%;
+        display: block;
+        height: 100%;
+    }
+    .top{
+        margin-left: 5px;
+        position: relative;
+    }
+    .front h1{
+        position: absolute;
+        color: white;
+        font-size:45px;
+        font-family: 'Work Sans', sans-serif;
+        top:50%;
+        left:6%;
+    }
+    .front h1:hover{
+        transition: transform 0.3s ease-in-out;
+    }
+    .front h3{
+        position: absolute;
+        color: white;
+        top:72%;
+        left:7%;
+    }
+    .front a{
+        text-decoration: none;
+        color: black;
+        font-size:x-large;
+    }
+    
+    .front button{
+        position: absolute;
+        background-color: white;
+        left:6%;
+        border-radius: 20px;
+        width: 150px;
+        top:88%;
+        margin-bottom: 1330px;
+    }
+    .f1{
+        margin-left:35px;
+        position: relative;
+    }
+    .featured{
+        margin-left: 44px;
+    }
+    .f2{
+        margin-left: -120px;
+    }
+    .f1 img {
+        width: 100%;
+    }
+    .f2 img{
+        display: flex;
+        width:100%;
+        height: 100%;
+
+}
+    .retro{
+        position: absolute;
+        color: white;
+        top:70%;
+        left:6%;
+        text-align: left;
+    }
+    .featured .btn{
+        position: absolute;
+        background-color: white;
+        left:6%;
+        border-radius: 20px;
+        width: 120px;
+        top:88%;
+        margin-bottom: 1330px;   
+    }
+    .featured .btn a{
+        color: black;
+    }
+    .ver img{
+        margin-left: 130px;
+      }
+    .versair{
+        position: absolute;
+        top:56%;
+        text-align:left;
+        left:34%;
+        color:white;
+    }
+    .ver .btn{
+        position: absolute;
+        background-color: white;
+        left:34%;
+        border-radius: 20px;
+        width: 120px;
+        top:90%;
+        margin-bottom: 1330px;
+    }
+
+    .carousel-item{
+        position: relative;
+        margin-left: 50px;  
+         
+    }
+    .right .pop img{
+        height:100%;
+        width: 120%;
+        justify-content: left;
+        margin-right: 200px;
+        transition: transform 0.3s ease-in-out;
+
+    }
+    .pop{
+        margin-right: 50px;   
+    }
+    .pop img:hover{
+        transform: scale(1.1);
+    }
+    .pop{
+        text-align: left;
+    }
+    .pop h4{
+        color: grey;
+        margin-left: 10px;
+    }
+    .foot{
+        color: white;
+    }
+    footer{
+        margin-right: none;
+        width: 100%;
+    }
+    footer .social{
+        padding: 20px;
+    }
+    footer h6{
+        color: white;
+    }
+    .text{
+        color: grey;
+    }
+    .end{
+        margin-left: 100px;
+    }
+    .mid{
+        margin-left: 100px;
+    }
+    .srt{
+        margin-left: 150px;
+    }
 }
 
 @media (min-width: 1201px) {
