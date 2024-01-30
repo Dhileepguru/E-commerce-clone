@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+}
+nav{
+    margin-top: 10px;
+}
+nav .nav{
+    color:white;
+
+}
+.nav-link{
+    color: white;
+    
+}
+.nav-item{
+    
+    padding-right: 0;
+}
