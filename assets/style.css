@@ -1,18 +1,66 @@
 body{
     background-color: black;
 }
-nav{
-    margin-top: 10px;
-}
-nav .nav{
-    color:white;
 
+@media (max-width: 576px) {
+   
 }
-.nav-link{
-    color: white;
+
+@media (min-width: 577px) and (max-width: 768px) {
     
 }
-.nav-item{
+
+@media (min-width: 769px) and (max-width: 992px) {
     
-    padding-right: 0;
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+   
+}
+
+@media (min-width: 1201px) {
+    body{
+        color: white;
+    }
+    
+    nav{
+        margin-top: 10px;
+        border-color: white !important;
+        border-top:0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 2px grey;
+        border-style: solid;
+    }
+    
+    nav .nav{
+        color:white;
+    
+    }
+    .nav-link{
+        color: white;
+        margin-left: 30px;
+        
+    }
+    .ho{
+        margin-left: 820px;
+    }
+    .ab{
+        color: aliceblue;
+    }
+    
+    .nav-item{
+        
+        text-align: center !important;
+    
+    }
+    .sign{
+        margin-right: 30px;
+    }
+    .home{
+        position: relative;
+    }
+    .button{
+        position:absolute;
+    }
 }
