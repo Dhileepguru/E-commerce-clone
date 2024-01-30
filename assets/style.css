@@ -11,7 +11,245 @@ footer{
 }
 
 @media (max-width: 576px) {
+    #navbarScroll{
+        background-color: darkgrey;
+    }
+    
+    #search{
+        display: none !important;
+    }
+    
+    body{
+        color: black;
+    }
+    
+    nav{
+        margin-top: 10px;
+        border-color: black!important;
+        border-top:0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 2px grey;
+        border-style: solid;
+        display: flex;;
+        
+        
+    }
+    .navbar-brand{
+        margin-left: 5px;
+    }
+    nav .nav{
+        color:black;
+    
+    }
+    .nav-link{
+        color: black;
+        margin-left: 12px;
+        
+    }
+    .ho{
+        margin-left: 10px;
+    }
+    .customize{
+        display: none;
+    }
+    .ab{
+        color: black;
+    }
+    
+    .nav-item{
+        
+        text-align: center !important;
+    
+    }
+    .navbar-toggler{
+        background-color:black;
+        color: aliceblue;
+        width: fit-content;
+    }
+    .navbar-toggler-icon{
+        display: flex;
+        color: white;
+        width: fit-content;
+        border-radius: 10px;
+        padding: 3px;
+    }
+    .navbar-toggler-icon span {
+        background-color:white;
+        height: 3px; 
+        width: 25px;
+        display: flex;
+        margin-top: 5px; 
+    }
+    .front img{
+        margin-left:0;
+        margin-right:0;
+        width: 100%;
+        display: block;
+        height: 100%;
+    }
+    
+    .top{
+        margin-left: 2px;
+        position: relative;
+    }
+    .front h1{
+        position: absolute;
+        color: white;
+        font-size:18px;
+        font-family: 'Work Sans', sans-serif;
+        top:45%;
+        left:3%;
+    }
+    .front .step{
+        top:65%;
+        left:3%;
+    }
+    
+    .front h3{
+        position: absolute;
+        color: white;
+        top:64%;
+        left:2%;
+        font-size: x-small;
+        
+    }
+    .front a{
+        text-decoration: none;
+        color: black;
+        font-size:x-small;
+    }
+    .front .shop{
+        top:78%;
+        margin-bottom: 2px;
+        left:3%;
+        margin-top:3px;
+
+
+    }
+    
+    .front button{
+        position: absolute;
+        background-color: white;
+        left:6%;
+        border-radius: 20px;
+        width: 150px;
+        top:88%;
+        margin-bottom: 1330px;
+    }
+    .fe{
+        text-align: center;
+    }
+    .f1 .btn{
+        background-color: grey;
+        border-radius: 10px;
+    }
+    .fi a{
+        text-decoration: none;
+        
+    }
+    .f1 a{
+        color: white;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .f1 img{
+        margin-left: 10px;
+        width: 200%;
+        height: 250px;
+    }
+    
+    .fit{
+        display: none;
+        
+    }
+    .f1 .btn1{
+        display: none;
+        margin-left:10px;
+        margin-top: 10px;
+    
+    
+    }
+
+    .fi2{
+        margin-top: 430px;
+        margin-left: -210px;
+        width: 200%;
+    }
+    .f2 img{
+        margin-left: -210px;
+    }
+    .fi2 img{
+        display: flex;
+        margin-left: 0;
+
+    }
+    .f2 .s{
+        display: none;
+    }
+    .versair{
+        display:none;
+    }
+    #videoCarousel{
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .pop img {
+        border-radius: 10px;
+        margin-top: 2px;
+        border-color: black;
+        
+    }
+
+    .right .pop img{
+        height:100%;
+        width: 100%;
+        justify-content: left;
+        margin-right: 200px;
+        transition: transform 0.3s ease-in-out;
+        
+
+    }
+    .pop h3,h4{
+        background-color: aqua;
+        display: none;
+    }
+    .head1{
+        color: gray;
+    }
+    
+    .foot{
+        color: white;
+    }
+    footer{
+        margin-right: none;
+        width: 100%;
+    }
+    footer .social{
+        padding: 20px;
+    }
+    footer h6{
+        color: white;
+        margin-left:-280px ;
+    }
+    .text{
+        color: grey;
+        text-align: center;
+   }
+    .end{
+        margin-left: 145px;
+        margin-top: 55px;
+    }
+    .mid{
+        text-align: center;
+        margin-top: 55px;
+        margin-left:145px ;
+    }
+    .srt{
+        margin-left: 150px;
+        
    
+}
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
@@ -31,7 +269,7 @@ footer{
         
     }
     .navbar-brand{
-        margin-left: 5px;
+        margin-left: 2px;
     }
     
     nav .nav{
@@ -62,7 +300,8 @@ footer{
         position:absolute;
     }
     .search{
-        width: max-content
+        display: none;
+        
     }
     .front img{
         margin-left: 5px;
@@ -79,19 +318,18 @@ footer{
     .front h1{
         position: absolute;
         color: white;
-        font-size:5px;
+        font-size:36px;
         font-family: 'Work Sans', sans-serif;
-        top:10%;
-        left:6%;
+        top:42%;
+        left:3%;
     }
-    .front h1:hover{
-        transition: transform 0.3s ease-in-out;
-    }
+    
     .front h3{
         position: absolute;
         color: white;
-        top:72%;
-        left:7%;
+        top:69%;
+        left:6%;
+        font-size: medium;
     }
     .front a{
         text-decoration: none;
@@ -105,25 +343,25 @@ footer{
         left:6%;
         border-radius: 20px;
         width: 150px;
-        top:88%;
+        top:83%;
         margin-bottom: 1330px;
     }
     .f1{
-        margin-left:35px;
+        margin-left:0;
         position: relative;
     }
     .featured{
-        margin-left: 44px;
+        margin-left: 14px;
     }
     .f2{
-        margin-left: -120px;
+        margin-left: -140px;
     }
     .f1 img {
-        width: 100%;
+        width: 80%;
     }
     .f2 img{
         display: flex;
-        width:100%;
+        width:80%;
         height: 100%;
 
 }
@@ -131,16 +369,16 @@ footer{
         position: absolute;
         color: white;
         top:70%;
-        left:6%;
+        left:16%;
         text-align: left;
     }
     .featured .btn{
         position: absolute;
-        background-color: white;
-        left:6%;
+        background-color: grey;
+        left:16%;
         border-radius: 20px;
         width: 120px;
-        top:88%;
+        top:105%;
         margin-bottom: 1330px;   
     }
     .featured .btn a{
@@ -153,16 +391,16 @@ footer{
         position: absolute;
         top:56%;
         text-align:left;
-        left:34%;
+        left:36%;
         color:white;
     }
     .ver .btn{
         position: absolute;
-        background-color: white;
+        background-color: grey;
         left:34%;
         border-radius: 20px;
         width: 120px;
-        top:90%;
+        top:105%;
         margin-bottom: 1330px;
     }
 
@@ -180,13 +418,17 @@ footer{
 
     }
     .pop{
-        margin-right: 50px;   
+        margin-right: 50px;  
+        width: 25%;
     }
     .pop img:hover{
         transform: scale(1.1);
     }
     .pop{
         text-align: left;
+    }
+    .pop3{
+       
     }
     .pop h4{
         color: grey;
@@ -209,13 +451,14 @@ footer{
         color: grey;
     }
     .end{
-        margin-left: 100px;
+        margin-left:50px;
+        text-align: justify;
     }
     .mid{
         margin-left: 100px;
     }
     .srt{
-        margin-left: 150px;
+        margin-left: 50px;
     }
     
 }
@@ -237,7 +480,7 @@ footer{
         
     }
     .navbar-brand{
-        margin-left: 50px;
+        margin-left: 2px;
     }
     
     nav .nav{
@@ -250,7 +493,7 @@ footer{
         
     }
     .ho{
-        margin-left: 20px;
+        margin-left: 10px;
     }
     .ab{
         color: black;
@@ -265,6 +508,7 @@ footer{
         position:absolute;
     }
     .search{
+        display: none;
         border-radius: 10px;
     }
     .front img{
@@ -514,21 +758,21 @@ footer{
         margin-bottom: 1330px;
     }
     .f1{
-        margin-left:35px;
+        margin-left:30px;
         position: relative;
     }
     .featured{
-        margin-left: 44px;
+        margin-left: 30px;
     }
     .f2{
-        margin-left: -120px;
+        margin-left: -180px;
     }
     .f1 img {
-        width: 100%;
+        width: 80%;
     }
     .f2 img{
         display: flex;
-        width:100%;
+        width:80%;
         height: 100%;
 
 }
@@ -536,13 +780,13 @@ footer{
         position: absolute;
         color: white;
         top:70%;
-        left:6%;
+        left:13%;
         text-align: left;
     }
     .featured .btn{
         position: absolute;
         background-color: white;
-        left:6%;
+        left:13%;
         border-radius: 20px;
         width: 120px;
         top:88%;
@@ -552,7 +796,7 @@ footer{
         color: black;
     }
     .ver img{
-        margin-left: 130px;
+        margin-left: 120px;
       }
     .versair{
         position: absolute;
