@@ -1,4 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300;400&family=Poppins:ital,wght@0,700;1,300;1,400;1,800;1,900&family=Work+Sans:ital,wght@1,900&display=swap');
+*{
+
+
+}
 body{
+    background-color:white;
+}
+footer{
     background-color: black;
 }
 
@@ -20,33 +28,38 @@ body{
 
 @media (min-width: 1201px) {
     body{
-        color: white;
+        color: black;
     }
     
     nav{
         margin-top: 10px;
-        border-color: white !important;
+        border-color: black!important;
         border-top:0;
         border-left: 0;
         border-right: 0;
         border-bottom: 2px grey;
         border-style: solid;
+        
+        
+    }
+    .navbar-brand{
+        margin-left: 10px;
     }
     
     nav .nav{
-        color:white;
+        color:black;
     
     }
     .nav-link{
-        color: white;
+        color: black;
         margin-left: 30px;
         
     }
     .ho{
-        margin-left: 820px;
+        margin-left: 120px;
     }
     .ab{
-        color: aliceblue;
+        color: black;
     }
     
     .nav-item{
@@ -54,13 +67,153 @@ body{
         text-align: center !important;
     
     }
-    .sign{
-        margin-right: 30px;
-    }
-    .home{
-        position: relative;
-    }
     .button{
         position:absolute;
     }
+    .search{
+        border-radius: 10px;
+    }
+    .front img{
+        margin-left: 50px;
+        margin-right: 50px;
+        width: 92%;
+        display: block;
+        height: 100%;
+    }
+    .top{
+        margin-left: 5px;
+        position: relative;
+    }
+    .front h1{
+        position: absolute;
+        color: white;
+        font-size:60px;
+        font-family: 'Work Sans', sans-serif;
+        top:50%;
+        left:5%;
+    }
+    .front h1:hover{
+        
+    }
+    .front h3{
+        position: absolute;
+        color: white;
+        top:75%;
+        left:5%;
+    }
+    .front a{
+        text-decoration: none;
+        color: black;
+        font-size:x-large;
+    }
+    
+    .front button{
+        position: absolute;
+        background-color: white;
+        left:6%;
+        border-radius: 20px;
+        width: 150px;
+        top:90%;
+        margin-bottom: 1330px;
+    }
+    .featured{
+        margin-left: 50px;
+        position: relative;
+    }
+    .featured img{
+        width:110%;
+        height: 100%;
+
+}
+    .retro{
+        position: absolute;
+        color: white;
+        top:75%;
+        left:4%;
+        text-align: left;
+    }
+    .featured .btn{
+        position: absolute;
+        background-color: white;
+        left:4%;
+        border-radius: 20px;
+        width: 120px;
+        top:90%;
+        margin-bottom: 1330px;   
+    }
+    .featured .btn a{
+        color: black;
+    }
+    .ver img{
+        margin-left: 130px;
+      }
+    .versair{
+        position: absolute;
+        top:70%;
+        text-align:left;
+        left:32%;
+        color:white;
+    }
+    .ver .btn{
+        position: absolute;
+        background-color: white;
+        left:30%;
+        border-radius: 20px;
+        width: 120px;
+        top:90%;
+        margin-bottom: 1330px;
+    }
+
+    .carousel-item{
+        position: relative;
+        margin-left: 50px;  
+         
+    }
+    .right .pop img{
+        height:100%;
+        width: 120%;
+        justify-content: left;
+        margin-right: 200px;
+        transition: transform 0.3s ease-in-out;
+
+    }
+    .pop{
+        margin-right: 50px;   
+    }
+    .pop img:hover{
+        transform: scale(1.1);
+    }
+    .pop{
+        text-align: left;
+    }
+    .pop h4{
+        color: grey;
+        margin-left: 10px;
+    }
+    .foot{
+        color: white;
+    }
+    footer{
+        margin-right: none;
+        width: 100%;
+    }
+    footer .social{
+        padding: 20px;
+    }
+    footer h6{
+        color: white;
+    }
+    .text{
+        color: grey;
+    }
+    .end{
+        margin-left: 100px;
+    }
+    .mid{
+        margin-left: 100px;
+    }
+    .srt{
+        margin-left: 150px;
+    }
+
 }
